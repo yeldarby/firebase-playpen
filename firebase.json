@@ -1,4 +1,5 @@
 {
   "firebase": "playpen",
-  "public": "public"
+  "public": "public",
+  "rules": "security-rules.json"
 }
