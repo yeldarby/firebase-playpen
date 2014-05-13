@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	background-color: black;
+}
+
+#playpen {
+	position: relative;
+
+	margin: 10px auto;
+	height: 510px;
+	width: 510px;
+
+	max-width: calc(100% - 20px);
+	max-height: calc(100% - 20px);
+
+	border: 2px solid #444;
+	background-color: #111;
+}
+
+#status {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+
+	color: white;
+	text-align: center;
+
+	font-family: Helvetica;
+	font-size: 24px;
+
+	pointer-events: none;
+}
+
+.player {
+	background-color: #FFF;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+}
